@@ -4,125 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML&CSS</title>
+    <title>My basic CSS</title>
     <link rel="icon" href="image/nike.jpg">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <h1>福田桃花</h1>
-    <ul>
-        <li><a href="#about">私について</a></li>
-        <li><a href="#skill">スキル</a></li>
-        <li><a href="#achivements">実績</a></li>
-        <li><a href="#form">問い合わせ</a></li>
-    </ul>
+    <header id="back">
+        <h1>福田桃花</h1>
+        <ul>
+            <li><a href="#about">私について</a></li>
+            <li><a href="#skill">スキル</a></li>
+            <li><a href="#achievements">実績</a></li>
+            <li><a href="#form">問い合わせ</a></li>
+        </ul>
+    </header>
     <main>
-        <img src="image/harinezumi.jpg" alt="自分の写真" style="width:100%;">
+        <img src="image/harinezumi.jpg" alt="自分の写真" class="main-image">
+        <section>
+            <article class="pf">
+                <h1>ポートフォリオについて</h1>
+                <p>
+                    このポートフォリオのサイトは私のスキルと実績を皆さんに共有できるサイトを作成しました。<br>
+                    <mark>HTMLとCSSの言語のみで作成できるサイトは自信があります。</mark><br>
+                    なので<b><u>企業HPの依頼がありましたら</u></b>お問い合わせお願いします。
+                </p>
+            </article>
+            <article id="about">
+                <h1>私について</h1>
+                <p>私はエンジニアとして1年仕事をしています。<br>
+                    今私はHTMLとCSSを学びJavaScriptを学習しようとしています。<br>
+                    <mark>SEO対策とレイアウト調整、デザインの自信はあります</mark>。まだまだアプリで学習ですが共同作業できる様に知識をつけていきます。
+                </p>
+            </article>
+            <article id="skill">
+                <h1>スキルについて</h1>
+                <p>取得言語についてわかりやすく説明いたします。<br>
+                    プログラミングには目的を設定して作りたいものに対してどういう言語を学べば作りあげれるのか理解しないといけないです。<br>
+                    その時私が必要な言語を取得したのが下記の言語です。この言語を取得して作成したHP（ホームページ）が更にその下の実績の項目で閲覧できる様になっています。</p>
+                <div>
+                    <h2>HTML&CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequuntur perferendis atque
+                        enim placeat laudantium assumenda nobis voluptates natus ab autem dignissimos recusandae ipsa
+                        odio quod dolorum, ea, architecto maxime!</p>
+                    <img src="image/cat.jpg" alt="ネコの写真" style="width: 50%;">
+                </div>
+                <div>
+                    <h2>JS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequuntur perferendis atque
+                        enim placeat laudantium assumenda nobis voluptates natus ab autem dignissimos recusandae ipsa
+                        odio quod dolorum, ea, architecto maxime!</p>
+                    <img src="image/koara.jpg" alt="コアラの写真" style="width: 50%;">
+                </div>
+                <div>
+                    <h2>Git</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequuntur perferendis atque
+                        enim placeat laudantium assumenda nobis voluptates natus ab autem dignissimos recusandae ipsa
+                        odio quod dolorum, ea, architecto maxime!</p>
+                    <img src="image/lisu.jpg" alt="リスの写真" style="width: 50%;">
+                </div>
+                <div>
+                    <h2>SQL</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequuntur perferendis atque
+                        enim placeat laudantium assumenda nobis voluptates natus ab autem dignissimos recusandae ipsa
+                        odio quod dolorum, ea, architecto maxime!</p>
+                    <img src="image/panda.jpg" alt="パンダの写真" style="width: 50%;">
+                </div>
+                <div>
+                    <h2>PHP</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequuntur perferendis atque
+                        enim placeat laudantium assumenda nobis voluptates natus ab autem dignissimos recusandae ipsa
+                        odio quod dolorum, ea, architecto maxime!</p>
+                    <img src="image/tanuki.jpg" alt="タヌキの写真" style="width: 50%;">
+                </div>
+            </article>
+            <article id="achievements">
+                <h1>実績について</h1>
+                <p>私がこれまで作成したHPを紹介します。</p>
+                <div>
+                    <h2>ポートフォリオ</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos laudantium, ullam tenetur
+                        eligendi amet quas, fugit dolorem, optio quo error magnam! Soluta ducimus voluptate qui
+                        perspiciatis numquam? Soluta, magnam.</p>
+                    <a class="link"
+                        href="https://andplants.jp/pages/dryflowers?utm_source=yahoo&utm_medium=cpc&utm_campaign=dryflower&utm_term=%E3%83%89%E3%83%A9%E3%82%A4%20%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC&yclid=YSS.1001097848.EAIaIQobChMI8LTBuIm9iwMV0tUWBR2fyDnjEAAYAiAAEgKlAvD_BwE&sa_p=YSA&sa_cc=1001097848&sa_t=1739326854586&sa_ra=39">ポートフォリオを閲覧する</a>
+                </div>
+                <div>
+                    <h2>ECサイト</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos laudantium, ullam tenetur
+                        eligendi amet quas, fugit dolorem, optio quo error magnam! Soluta ducimus voluptate qui
+                        perspiciatis numquam? Soluta, magnam.</p>
+                    <a class="link"
+                        href="https://jp.danielwellington.com/?utm_source=Yahoo_search&utm_medium=cpc&utm_campaign=JP_JA_Yahoo_Search_Brand_Broad&">ショッピングサイトを閲覧する</a>
+                </div>
+                <div>
+                    <h2>スニーカサイト</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos laudantium, ullam tenetur
+                        eligendi amet quas, fugit dolorem, optio quo error magnam! Soluta ducimus voluptate qui
+                        perspiciatis numquam? Soluta, magnam.</p>
+                    <a class="link"
+                        href="https://www.nike.com/jp/?cp=81810773392_search_-%E3%83%8A%E3%82%A4%E3%82%AD-s-13690743252-119318467090-e-c---532154787036-kwd-892290752&yclid=YSS.1001169693.EAIaIQobChMI-u3B1om9iwMVP24PAh20RRwVEAAYASAAEgLU0_D_BwE&sa_p=YSA&sa_cc=1001169693&sa_t=1739326915784&sa_ra=AD&gclid=CJXl7deJvYsDFWCFrAId4jsmww&gclsrc=ds">スニーカー販売サイトを閲覧する</a>
+                </div>
+            </article>
+        </section>
     </main>
-    <section>
-        <article>
-            <h1>ポートフォリオについて</h1>
-            <p>このポートフォリオのサイトは私のスキルと実績を皆さんに共有できるサイト制作をしました。<br>
-                <mark>HTMLとCSSの言語のみで作成できるサイトは自信があります。</mark><br>
-                なので<b><u>企業HPの依頼がありましたら</u></b>お問い合わせお願いします。
-            </p>
-        </article>
-        <article id="about">
-            <h1>私について</h1>
-            <p>私はエンジニアとして1年仕事をしています。<br>
-                今私はHTMLとCSSを学びJavaScriptを学習しようとしています。<br>
-                <mark>SEO対策とレイアウト調整、デザインの自信はあります</mark>。まだまだアプリで学習ですが共同作業できる様に知識をつけていきます。
-            </p>
-        </article>
-        <article id="skill">
-            <h1>スキルについて</h1>
-            <p>取得言語についてわかりやすく説明いたします。<br>
-                プログラミングには目的を設定して作りたいものに対してどういう言語を学べば作りあげれるのか理解しないといけないです。<br>
-                その時私が必要な言語を取得したのが下記の言語です。この言語を取得して作成したHP(ホームページ)が更にその下の実績の項目で閲覧できる様になっています。
-            </p>
-            <div>
-                <h2>HTML&CSS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid non enim tempore ad odit
-                    in sed veritatis hic, dolores quasi ut explicabo quisquam asperiores, dignissimos repudiandae, vero
-                    quas id.</p>
-                <img src="image/cat.jpg" alt="ネコの写真" style="width: 50%;">
-            </div>
-            <div>
-                <h2>JS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid non enim tempore ad odit
-                    in sed veritatis hic, dolores quasi ut explicabo quisquam asperiores, dignissimos repudiandae, vero
-                    quas id.</p>
-                <img src="image/koara.jpg" alt="コアラの写真" style="width: 50%;">
-            </div>
-            <div>
-                <h2>Git</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid non enim tempore ad odit
-                    in sed veritatis hic, dolores quasi ut explicabo quisquam asperiores, dignissimos repudiandae, vero
-                    quas id.</p>
-                <img src="image/lisu.jpg" alt="リスの写真" style="width: 50%;">
-            </div>
-            <div>
-                <h2>SQL</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid non enim tempore ad odit
-                    in sed veritatis hic, dolores quasi ut explicabo quisquam asperiores, dignissimos repudiandae, vero
-                    quas id.</p>
-                <img src="image/panda.jpg" alt="パンダの写真" style="width: 50%;">
-            </div>
-            <div>
-                <h2>PHP</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid non enim tempore ad odit
-                    in sed veritatis hic, dolores quasi ut explicabo quisquam asperiores, dignissimos repudiandae, vero
-                    quas id.</p>
-                <img src="image/tanuki.jpg" alt="きつねの写真" style="width: 50%;">
-            </div>
-        </article>
-        <article id="achievements">
-            <h1>実績について</h1>
-            <p>私がこれまでについて作成したHPを紹介します。</p>
-            <div>
-                <h2>ポートフォリオ</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe repellendus doloribus
-                    numquam nobis quia facere soluta et officia dolorum dolorem ut nam molestiae aliquid, eveniet,
-                    impedit alias accusantium eos!</p>
-                <a href="https://andplants.jp/pages/dryflowers?utm_source=yahoo&utm_medium=cpc&utm_campaign=dryflower&utm_term=%E3%83%89%E3%83%A9%E3%82%A4%20%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC&yclid=YSS.1001097848.EAIaIQobChMI8LTBuIm9iwMV0tUWBR2fyDnjEAAYAiAAEgKlAvD_BwE&sa_p=YSA&sa_cc=1001097848&sa_t=1739326854586&sa_ra=39">ポートフォリオを閲覧する</a>
-            </div>
-            <div>
-                <h2>ECサイト</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe repellendus doloribus
-                    numquam nobis quia facere soluta et officia dolorum dolorem ut nam molestiae aliquid, eveniet,
-                    impedit alias accusantium eos!</p>
-                <a href="https://jp.danielwellington.com/?utm_source=Yahoo_search&utm_medium=cpc&utm_campaign=JP_JA_Yahoo_Search_Brand_Broad&amp;">ショッピングサイトを閲覧する</a>
-            </div>
-            <div>
-                <h2>スニーカサイト</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe repellendus doloribus
-                    numquam nobis quia facere soluta et officia dolorum dolorem ut nam molestiae aliquid, eveniet,
-                    impedit alias accusantium eos!</p>
-                <a href="https://www.nike.com/jp/?cp=81810773392_search_-%E3%83%8A%E3%82%A4%E3%82%AD-s-13690743252-119318467090-e-c---532154787036-kwd-892290752&yclid=YSS.1001169693.EAIaIQobChMI-u3B1om9iwMVP24PAh20RRwVEAAYASAAEgLU0_D_BwE&sa_p=YSA&sa_cc=1001169693&sa_t=1739326915784&sa_ra=AD&gclid=CJXl7deJvYsDFWCFrAId4jsmww&gclsrc=ds">スニーカー販売サイトを閲覧する</a>
-            </div>
-        </article>
-    </section>
-    </main>
-    <footer id="form">
-        <h2>お問い合わせFORM</h2>
-        <small>全て埋めて送信ボタンを押して問い合わせください</small>
-        <hr>
-        <label>
-            <p>名前</p>
-            <input type="text" placeholder="フルネームで名前を書いて下さい">
-        </label>
-        <label>
-            <p>メールアドレス</p>
-            <input type="text" placeholder="PCメールアドレスを書いて下さい">
-        </label>
-        <label>
-            <p>質問</p>
-            <textarea rows="10" cols="70" placeholder="聞きたい質問を書いて下さい"></textarea>
-        </label>
-    </footer>
+<footer id="form">
+    <h2>お問い合わせFORM</h2>
+    <small>全て埋めて送信ボタンを押して問い合わせください</small>
     <hr>
-    <a href="#back">TOPに戻る</a>
-    <p>福田桃花の公式ホームページ@All company</p>
+    <label>
+        <p>名前</p>
+        <input type="text" placeholder="フルネームで名前を書いて下さい">
+    </label>
+    <label>
+        <p>メールアドレス</p>
+        <input type="text" placeholder="PCメールアドレスを書いて下さい">
+    </label>
+    <label>
+        <p>質問</p>
+        <textarea rows="10" cols="70" placeholder="聞きたい質問を書いて下さい"></textarea>
+    </label>
+</footer>
+<hr>
+<a class="link" href="#back">TOPに戻る</a>
+<p class="last-p">福田桃花の公式ホームページ@All company</p>
 </body>
 
 </html>
