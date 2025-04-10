@@ -6,8 +6,63 @@
     box-sizing: border-box;
 }
 
+head {
+    display: none;
+}
+
+body {
+    display: block;
+}
+
 header {
     background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-inline-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+header ul li {
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
 }
 
 .main-image{
@@ -18,16 +73,126 @@ margin: 0 auto;
 }
 
 main section{
-    background-color: beige;
+    background-color: rgba(223, 223, 223, 0.288);
+    display: block;
+    unicode-bidi: isolate;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
 
 article{
     width: 80%;
     margin: 0 auto;
-    background-color: bisque;
+    background-color: rgba(255, 255, 255, 0.924);
     text-align: center;
     padding: 40px;
 }
+
+article h1 {
+    background-color: black;
+    color: white;
+    width: 40%;
+    border-radius: 20px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+b {
+    font-weight: bold;
+}
+
+mark {
+    background-color: mark;
+    color: marktext;
+}
+
+.parent {
+    width: 100%;
+    display: flex;flex-wrap: wrap;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.parent div {
+    background-color: rgba(255, 255, 255);
+    width: calc((100% - 12px) / 3);
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.parent p {
+    font-size: 8px;
+}
+
+article p {
+    padding: 30px 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.parent img {
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
 
 #form{
     text-align: center;
@@ -51,4 +216,27 @@ article{
     font-size: 10px;
     letter-spacing: 10px;
     padding: 10px 0;
+}
+
+#achievements div {
+    background-color: rgb(172, 172, 172);
+    width: 80%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#form {
+    text-align: center;
+}
+
+#form label {
+    display: block;
+    margin: 30px 0;
+}
+
+#form input, textarea {
+    width: 80%;
+    padding: 10px 0;
+    text-align: center;
 }
